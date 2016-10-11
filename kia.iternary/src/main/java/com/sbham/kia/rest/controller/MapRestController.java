@@ -21,7 +21,7 @@ public class MapRestController
         LocationTO locationTO = new LocationTO().setFirstLocation(location1).setSecondLocation(location2);
         System.out.println(locationTO);
 
-        mapBZ.findWaysToTravel(locationTO);
+        mapBZ.findItinerary(locationTO);
 
         //Find the Way of travelling
         //

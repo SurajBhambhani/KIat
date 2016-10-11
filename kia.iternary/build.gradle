@@ -33,8 +33,16 @@ dependencies {
 	compile('org.springframework.boot:spring-boot-starter-security')
 	compile('org.springframework.boot:spring-boot-starter-web')
 	compile('com.google.maps:google-maps-services:0.1.15')
+	compile ('com.google.code.gson:gson:2.6.2')
+	compile ('org.apache.commons:commons-lang3:3.4')
+	compile group: 'org.apache.commons', name: 'commons-lang3', version: '3.4'
+    compile group: 'com.sun.codemodel', name: 'codemodel', version: '2.4.1'
+    compile group: 'commons-lang', name: 'commons-lang', version: '2.6'
 
-	testCompile('org.springframework.boot:spring-boot-starter-test')
+
+
+
+    testCompile('org.springframework.boot:spring-boot-starter-test')
 }
 
 
